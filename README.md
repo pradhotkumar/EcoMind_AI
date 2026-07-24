@@ -1,51 +1,141 @@
-# EcoMind AI - Intelligent Sustainability Coach 🌿🤖
+# 🌍 EcoMind AI
 
-EcoMind AI is a futuristic, "Cyber-Eco" Android application that combines advanced AI coaching with real-time carbon analytics. It empowers users to transition towards zero-emission lifestyles through natural voice interaction, intelligent calm technology, and gamified habit building.
+> **An AI-powered sustainability coach that helps users build eco-friendly habits through voice conversations, carbon analytics, and intelligent recommendations.**
 
-## ✨ Key Features
+---
 
-- **🎙️ Natural Voice Interaction**: Engage in seamless voice-to-voice eco check-ins powered by **ElevenLabs Conversational AI**.
-- **🧠 AI Sustainability Coach**: A floating AI companion that monitors energy balance and provides conversational wisdom.
-- **📊 Deep Carbon Analytics**: Machine learning models that track food, transit, and utility emissions to identify "carbon leakages."
-- **🎛️ n8n Integration**: Adaptive alerts and automated carbon offsets triggered by environmental events via n8n webhooks.
-- **🏆 Eco-Badges & XP**: Gamified progression system with 5 metallic badge tiers: Starter, Conscious, Impactful, Eco Hero, and Planet Guardian.
-- **🎨 Elite Dark Aesthetic**: A premium "Cyber-Eco" UI with glassmorphic elements, deep navy gradients, and emerald/cyan neural glows.
+## 📖 Overview
+
+EcoMind AI is an Android application designed to make sustainable living simple and engaging.
+
+Using Artificial Intelligence, Voice AI, and Carbon Analytics, the app helps users understand their environmental impact, reduce their carbon footprint, and develop long-term sustainable habits.
+
+Whether it's tracking transportation emissions, reducing electricity usage, or improving daily lifestyle choices, EcoMind AI acts as a personal sustainability companion.
+
+---
+
+## ✨ Features
+
+- 🤖 AI Sustainability Coach
+- 🎙️ Natural Voice Conversations
+- 📊 Carbon Footprint Analytics
+- 🌱 Personalized Eco Recommendations
+- ⚡ Smart Automation with n8n
+- 🏆 XP, Badges & Achievement System
+- 📅 Daily Sustainability Challenges
+- 📈 Weekly & Monthly Progress Reports
+- 🌍 Sustainability Score
+
+---
+
+## 📱 App Screens
+
+| Home | AI Coach |
+|------|----------|
+| ![](docs/screenshots/home.png) | ![](docs/screenshots/coach.png) |
+
+| Analytics | Achievements |
+|-----------|--------------|
+| ![](docs/screenshots/analytics.png) | ![](docs/screenshots/badges.png) |
+
+---
+
+## 🏗️ Tech Stack
+
+| Category | Technology |
+|----------|------------|
+| Language | Kotlin |
+| UI | Jetpack Compose |
+| Architecture | MVVM |
+| Database | Room |
+| Networking | Retrofit + OkHttp |
+| AI | Google Gemini |
+| Voice AI | ElevenLabs |
+| Automation | n8n |
+| Charts | MPAndroidChart |
+
+---
+
+## 📂 Project Structure
+
+```text
+EcoMindAI/
+│
+├── app/
+├── data/
+├── domain/
+├── ui/
+├── features/
+├── docs/
+│   ├── screenshots/
+│   └── assets/
+├── gradle/
+└── README.md
+```
+
+---
 
 ## 🚀 Getting Started
 
-### Prerequisites
+### Clone the Repository
 
-- Android Studio Ladybug or newer.
-- ElevenLabs API Key and Agent ID.
-- (Optional) Gemini AI API Key for enhanced textual coaching.
+```bash
+git clone https://github.com/pradhotkumar/EcoMind_AI.git
+```
 
-### Configuration
+### Open the Project
 
-1. Clone the repository.
-2. Create a `.env` file in the root directory (refer to `.env.example`).
-3. Add your keys:
-   ```env
-   ELEVENLABS_API_KEY=your_key_here
-   ELEVENLABS_AGENT_ID=your_agent_id_here
-   GEMINI_API_KEY=your_gemini_key_here
-   ```
-4. Sync the project with Gradle.
+Open the project using **Android Studio**.
 
-## 🛠️ Tech Stack
+### Configure API Keys
 
-- **UI**: Jetpack Compose with custom Canvas animations.
-- **State Management**: Kotlin Flow & ViewModel.
-- **Database**: Room for local telemetry and chat history.
-- **Network**: OkHttp & Retrofit for WebSocket streaming and API calls.
-- **AI**: ElevenLabs (Voice) & Google Gemini (Textual Intelligence).
-- **Automation**: n8n Webhook architecture.
+Create a `.env` file (or use `local.properties`) and add:
 
-## 🎨 Redesigned Visual Identity
+```env
+ELEVENLABS_API_KEY=YOUR_API_KEY
+ELEVENLABS_AGENT_ID=YOUR_AGENT_ID
+GEMINI_API_KEY=YOUR_API_KEY
+```
 
-The app features a completely redesigned icon and theme:
-- **Background**: Deep Navy Radial Gradient.
-- **Icon**: Glowing Neural Leaf representing the fusion of Ecology and Intelligence.
-- **Typography**: Clean, high-contrast Slate & Soft White.
+### Run
+
+Build and run the application on an Android emulator or physical device.
 
 ---
-*Built for the future of our planet. Let\'s optimize our footprint together.*
+
+## 🛣️ Roadmap
+
+- ✅ AI Sustainability Coach
+- ✅ Carbon Footprint Calculator
+- ✅ Voice AI Integration
+- ✅ Gamification System
+- ⏳ Smart Home Integration
+- ⏳ AI Waste Detection
+- ⏳ Wear OS Support
+- ⏳ Community Challenges
+- ⏳ Carbon Offset Marketplace
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+
+1. Fork the repository
+2. Create a feature branch
+3. Commit your changes
+4. Open a Pull Request
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+## 💚 Vision
+
+EcoMind AI aims to make sustainable living accessible through Artificial Intelligence by helping users understand their environmental impact and encouraging small daily actions that create meaningful change.
+
+> **Think Smarter. Live Greener. 🌱**
