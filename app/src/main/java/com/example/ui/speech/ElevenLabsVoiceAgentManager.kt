@@ -12,6 +12,7 @@ import android.media.MediaRecorder
 import android.util.Base64
 import android.util.Log
 import android.os.Build
+import com.example.BuildConfig
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job
@@ -122,8 +123,8 @@ class ElevenLabsVoiceAgentManager(private val context: Context) {
         startPlaybackQueue()
 
         // 2. Initialize WebSocket to ElevenLabs Conversation Agent ID
-        val agentId = "agent_6501ks7smcbcez097ey5eypbvjgv"
-        val apiKey = "sk_0fdb9aef124b053f160c596c7d580939ec5662319303797d"
+        val agentId = BuildConfig.ELEVENLABS_AGENT_ID
+        val apiKey = BuildConfig.ELEVENLABS_API_KEY
         val request = Request.Builder()
             .url("wss://api.elevenlabs.io/v1/convai/conversation?agent_id=$agentId")
             .addHeader("xi-api-key", apiKey)
