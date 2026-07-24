@@ -8,10 +8,6 @@
 
 ---
 
-<p align="center">
-  <img src="docs/screenshots/poster.png" width="700" alt="EcoMind AI Overview">
-</p>
-
 ## 📋 Project Overview
 
 EcoMind AI is a production-grade Android application designed to transform how individuals interact with sustainability. By leveraging cutting-edge Artificial Intelligence, the platform provides a seamless, personalized experience for habit tracking, carbon analytics, and environmental education.
@@ -154,6 +150,14 @@ sequenceDiagram
     G-->>U: Voice Feedback ("Great! You saved 2kg of CO2")
     G->>U: Suggest relevant Eco-Challenge
 ```
+
+---
+
+## 🎨 Visual Architecture
+
+<p align="center">
+  <img src="docs/screenshots/poster.png" width="400" alt="EcoMind AI Visual Architecture">
+</p>
 
 ---
 
