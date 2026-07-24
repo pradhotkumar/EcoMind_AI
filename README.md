@@ -32,11 +32,11 @@ Whether it's tracking transportation emissions, reducing electricity usage, or i
 
 | Home | AI Coach |
 |------|----------|
-| ![](docs/screenshots/home.png) | ![](docs/screenshots/coach.png) |
+| ![](docs/screenshots/home.jpeg) | ![](docs/screenshots/coach.jpeg) |
 
 | Analytics | Achievements |
 |-----------|--------------|
-| ![](docs/screenshots/analytics.png) | ![](docs/screenshots/badges.png) |
+| ![](docs/screenshots/analytics.jpeg) | ![](docs/screenshots/badges.jpeg) |
 
 ---
 
